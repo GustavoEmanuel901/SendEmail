@@ -19,4 +19,5 @@ Aplicação de Envio de Email com React e NodeJs.
 ![Login](Login.PNG)
 ![Página de Cadastro](Cadastro.PNG)
 ![Profile](Profile.PNG)
-![Email-View]
+![Email-View](Email View.PNG)
+![New-Email](RegisterEmail.PNG)
