@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <style>
+            p {
+                color: #b1b1b1;
+                line-height: 25px;
+                text-align: 'left';
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+            }
+
+            .container {
+                margin-top: 50px;
+                width: 100%;
+                max-width: 380px;
+                height: 100px;
+                background: #c7c899;
+                padding: 20px 0;
+                border-radius: 4px;
+                margin-bottom: 10px;
+
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .image img {
+                width: 100px;
+                height: 100px;
+                margin-left: 5px;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+            }
+
+            .info p {
+                margin: 0;
+                color: blue;
+                font-size: 12px;
+                margin-left: 10px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <p> {{ text }} </p>
+
+        <div class="container">
+            <div class='image'>
+                <img src="https://uploadexamplegustavo.s3-sa-east-1.amazonaws.com/ff0d741392e78267ffd317a2e709bc1d-Local.png" alt="Local">
+            </div>
+
+            <div class='info'>
+                <p>Nome da Empresa</p>
+                <p>Telefone: 978897899</p>
+                <p>Email: empresa@gmail.com</p>
+            </div>
+        </div>
+    </body>
+</html>
